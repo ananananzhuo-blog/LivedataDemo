@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".livedatawithcoroutiue.CoroutiueLivedataActivity">
+    <Button
+        android:id="@+id/btn_startasync"
+        android:layout_width="match_parent"
+        android:text="阻塞3ms"
+        android:layout_height="wrap_content"/>
+
+    <Button
+        android:id="@+id/btn_startasync_emitsource"
+        android:layout_width="match_parent"
+        android:text="阻塞三秒又三秒"
+        android:layout_height="wrap_content"/>
+</LinearLayout>

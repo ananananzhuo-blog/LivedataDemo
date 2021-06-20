@@ -17,4 +17,26 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="使用Livedata实现全局数据监听"/>
+
+    <Button
+        android:id="@+id/btn_transformation_map"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Transformations.map对Livedata进行转换"/>
+    <Button
+        android:id="@+id/btn_transformation_switchmap"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Transformations.switchMap对Livedata进行转换"/>
+    <Button
+        android:id="@+id/btn_meditorlivedata"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="MeditorLivedata的使用"/>
+
+    <Button
+        android:id="@+id/btn_livedata_with_coroutiue"
+        android:layout_width="match_parent"
+        android:text="livedata和协程一起使用"
+        android:layout_height="wrap_content"/>
 </LinearLayout>

@@ -9,7 +9,11 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.LivedataDemo">
-        <activity android:name=".globallivedata.NotifyGlobalDataWithLivedataActivity"></activity>
+        <activity android:name=".livedatawithcoroutiue.CoroutiueLivedataActivity"></activity>
+        <activity android:name=".meditorlivedata.MeditorLivedataActivity" />
+        <activity android:name=".transformationswitchmap.TransSwitchMapActivity" />
+        <activity android:name=".transformationmap.TransMapActivity" />
+        <activity android:name=".globallivedata.NotifyGlobalDataWithLivedataActivity" />
         <activity android:name=".countdown.CountDownActivity" />
         <activity android:name=".MainActivity">
             <intent-filter>
