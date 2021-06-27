@@ -37,5 +37,8 @@ class MainActivity : AppCompatActivity() {
         btn_livedata_with_coroutiue.setOnClickListener {
             startActivity(Intent(this,CoroutiueLivedataActivity::class.java))
         }
+        btn_background_livedata.setOnClickListener {
+            startActivity(Intent(this,BackgroundLivedataActivity::class.java))
+        }
     }
 }

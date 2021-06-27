@@ -39,4 +39,9 @@
         android:layout_width="match_parent"
         android:text="livedata和协程一起使用"
         android:layout_height="wrap_content"/>
+    <Button
+        android:id="@+id/btn_background_livedata"
+        android:layout_width="match_parent"
+        android:text="activity被覆盖，再返回查看能收到消息的数量"
+        android:layout_height="wrap_content"/>
 </LinearLayout>

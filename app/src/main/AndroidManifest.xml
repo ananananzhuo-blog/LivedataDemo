@@ -9,7 +9,8 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.LivedataDemo">
-        <activity android:name=".livedatawithcoroutiue.CoroutiueLivedataActivity"></activity>
+        <activity android:name=".BackgroundLivedataActivity"></activity>
+        <activity android:name=".livedatawithcoroutiue.CoroutiueLivedataActivity" />
         <activity android:name=".meditorlivedata.MeditorLivedataActivity" />
         <activity android:name=".transformationswitchmap.TransSwitchMapActivity" />
         <activity android:name=".transformationmap.TransMapActivity" />

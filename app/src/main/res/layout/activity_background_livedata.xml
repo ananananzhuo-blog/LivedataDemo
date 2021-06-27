@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    tools:context=".BackgroundLivedataActivity">
+    <Button
+        android:id="@+id/btn_senddata_frombackground"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="从后台向前台发送数据"/>
+    <Button
+        android:id="@+id/btn_toanother_activity"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="跳转到另一个页面"/>
+</LinearLayout>
