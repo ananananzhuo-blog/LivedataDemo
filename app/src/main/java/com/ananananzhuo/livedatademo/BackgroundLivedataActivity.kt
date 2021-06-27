@@ -30,6 +30,9 @@ class BackgroundLivedataActivity : AppCompatActivity() {
         viewModel.livedata.observe(this) {
             logEE("打印收到的数据：$it")
         }
+        viewModel.livedata.observe(this) {
+            logEE("打印收到的数据：$it")
+        }
     }
 }
 
