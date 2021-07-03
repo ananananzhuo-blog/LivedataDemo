@@ -10,6 +10,7 @@ import com.ananananzhuo.livedatademo.livedatawithcoroutiue.CoroutiueLivedataActi
 import com.ananananzhuo.livedatademo.meditorlivedata.MeditorLivedataActivity
 import com.ananananzhuo.livedatademo.transformationmap.TransMapActivity
 import com.ananananzhuo.livedatademo.transformationswitchmap.TransSwitchMapActivity
+import com.ananananzhuo.livedatademo.updatasimdata.UpdateSimDataActivity
 import kotlinx.android.synthetic.main.activity_main.*
 fun logEE(msg:String){
     Log.e("安安安安卓",msg)
@@ -39,6 +40,9 @@ class MainActivity : AppCompatActivity() {
         }
         btn_background_livedata.setOnClickListener {
             startActivity(Intent(this,BackgroundLivedataActivity::class.java))
+        }
+        btn_updatesimdata.setOnClickListener {
+            startActivity(Intent(this,UpdateSimDataActivity::class.java))
         }
     }
 }
